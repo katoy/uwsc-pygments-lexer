@@ -21,7 +21,8 @@ Hacking
 
     pygmentize -O full,style=default -f html -o <output file> <input file>
 
-    input file encoding must be UTF-8,  To cinvert, 
+    input file encoding must be UTF-8,  
+    To convert, 
     `nkf -w file > out_file`
 
 Thanks
