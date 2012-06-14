@@ -19,14 +19,10 @@ Assuming you already have Pygments installed (otherwise a simple `sudo easy_inst
 Hacking
 -------
 
-    pygmentize -O full,style=default -f html -o <output file> <input file>
-
-    input file encoding must be UTF-8,  
-    To convert, 
-    `nkf -w file > out_file`
+    pygmentize -O full,style=default,encoding=utf-8,linenos=table -f html -o <output file> <input file>
 
 Thanks
 ------
 
-The code is based on several of the already existing gap lexers from Pygments, 
+The code is based on several of the already existing gap lexers from Pygments,  
 See [https://github.com/pbelmans/gap-pygments-lexer](https://github.com/pbelmans/gap-pygments-lexer)
