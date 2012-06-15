@@ -631,6 +631,18 @@ class UWSCLexer(RegexLexer):
         'VK_X',
         'VK_Y',
         'VK_Z',
+
+        'VK_0',
+        'VK_1',
+        'VK_2',
+        'VK_3',
+        'VK_4',
+        'VK_5',
+        'VK_6',
+        'VK_7',
+        'VK_8',
+        'VK_9',
+
     ]
 
     tokens = {
