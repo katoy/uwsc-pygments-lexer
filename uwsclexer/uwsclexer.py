@@ -68,7 +68,7 @@ class UWSCLexer(RegexLexer):
         'GLOBAL',
         'WITH',
         'ENDWITH',
-        'TEXBLOCK',
+        'TEXTBLOCK',
         'ENDTEXTBLOCK',
         'HASHTBL',
         'TRY',
