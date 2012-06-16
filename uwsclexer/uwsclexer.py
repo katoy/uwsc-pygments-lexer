@@ -263,7 +263,7 @@ class UWSCLexer(RegexLexer):
         'TRY_ERRMSG',
         'TRY_ERRLINE',
         'HOTKEY_VK',
-        'HOYKEY_MOD',
+        'HOTKEY_MOD',
 
         'G_TIME_YY',
         'G_TIME_MM',
